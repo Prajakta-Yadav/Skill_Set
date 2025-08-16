@@ -1,0 +1,138 @@
+<html>
+<head>
+	<title>Tables</title>
+<style>
+	
+table,td, th{
+	border: 2px solid black;
+	//border-collapse: collapse;
+	border-radius:10px;
+}
+
+th,td {
+	background-color: #96D4D4;
+}
+#Table1, .tr1{
+	//border-collapse: collapse;
+	//border-radius:10px;
+	border: none;
+	background-color: #96D2D2;
+	width:100%;
+}
+.th1, .td1{
+	border: 2px solid red;
+	background-color: #96D2D2;
+	
+} 
+
+#Table2, .tr2{
+	border-collapse: collapse;
+	//border-radius:10px;
+	border: none;
+	background-color: #96D2D2;
+	width:40%;
+}
+.th2, .td2{
+	border: 2px solid red;
+	background-color: #96D2D2;
+	//width:40%;
+	
+} 
+
+</style>
+
+</head>
+<body>
+
+<div><h1> Table1 </h1> </div>
+	<table> 
+		<tr>
+			<th colspan="3">column</th>
+	
+		</tr>
+		<tr>
+			<th rowspan="4">row</th>
+	
+		</tr>
+		
+		<tr>
+		    <th>Name</th>
+	            <th>Surname</th>
+		    <th>Roll No.</th>
+		</tr>
+
+		<tr>
+		    <td>Prajakta</td>
+	            <td>Yadav</td>
+		    <td>57</td>
+		</tr>
+
+		<tr>
+		    <td>Prajakta</td>
+	            <td>Yadav</td>
+		    <td>57</td>
+		</tr>
+
+		<tr>
+		    <td>Prajakta</td>
+	            <td>Yadav</td>
+		    <td>57</td>
+		</tr>
+	</table>
+
+<div><h1> Table2 </h1> </div>
+
+<table id="Table1"> 
+		<tr class ="tr1">
+		    <th class ="th1">Name</th>
+	            <th class ="th1">Surname</th>
+		    <th class ="th1">Roll No.</th>
+		</tr>
+
+		<tr class ="tr1">
+		    <td class ="td1">Prajakta</td>
+	            <td class ="td1">Yadav</td>
+		    <td class ="td1">57</td>
+		</tr>
+
+		<tr class ="tr1">
+		    <td class ="td1">Prajakta</td>
+	            <td class ="td1">Yadav</td>
+		    <td class ="td1">57</td>
+		</tr>
+
+		<tr class ="tr1">
+		    <td class ="td1">Prajakta</td>
+	            <td class ="td1">Yadav</td>
+		    <td class ="td1">57</td>
+		</tr>
+	</table>
+
+<div><h1> Table3 </h1> </div>
+<table id="Table2"> 
+		<tr class ="tr2">
+		    <th class ="th2">Name</th>
+	            <th class ="th2">Surname</th>
+		    <th class ="th2">Roll No.</th>
+		</tr>
+
+		<tr class ="tr2">
+		    <td class ="td2">Prajakta</td>
+	            <td class ="td2">Yadav</td>
+		    <td class ="td2">57</td>
+		</tr>
+
+		<tr class ="tr2">
+		    <td class ="td2">Prajakta</td>
+	            <td class ="td2">Yadav</td>
+		    <td class ="td2">57</td>
+		</tr>
+
+		<tr class ="tr2">
+		    <td class ="td2">Prajakta</td>
+	            <td class ="td2">Yadav</td>
+		    <td class ="td2">57</td>
+		</tr>
+	</table>
+</body>
+</html>
