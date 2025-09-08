@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 1 Question 3</title>
+</head>
+<body>
+    <h3>Create a registration form with fields: Name, Email, Password, Gender, and a Submit button.</h3>
+    <h4>Concepts tested: form, input, label, button, form attributes</h4>
+
+    <form action="Post" target="_blank" style="width: 30%; margin-left: auto; margin-right: auto; border: 2px solid black; padding: 20px; border-radius: 10px; box-shadow: 5px 10px #888888;">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+        
+        <label for="Gender">Gender:</label>
+
+        <input type="radio" id="Female" name="Gender" value="Female">
+        <label for="html">Female</label>
+
+        <input type="radio" id="css" name="Gender" value="Male">
+        <label for="css">Male</label>
+
+        <input type="radio" id="javascript" name="Gender" value="Other">
+        <label for="Other">Other</label> 
+        <br>
+        <br>
+
+        <button value="Submit">Submit</button>
+    </form>
+</body>
+</html>
